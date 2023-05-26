@@ -1,0 +1,41 @@
+/* hide native tabs and sidebar header */
+#TabsToolbar-customization-target {
+  visibility: collapse;
+}
+
+#navigator-toolbox[inFullscreen="true"] #titlebar {
+  visibility: collapse;
+}
+
+#sidebar-header {
+  visibility: collapse;
+}
+
+/* realign elements */
+#nav-bar {
+  margin-top: calc(-1 * var(--tab-min-height));
+  
+  margin-right: 144px;
+  /* margin-right: 96px; */
+  
+  box-shadow: none !important;
+}
+
+#nav-bar[inFullscreen="true"] {
+  margin-top: unset;
+  margin-right: unset;
+}
+
+.titlebar-buttonbox-container {
+  min-height: var(--tab-min-height);
+}
+
+/* recolor elements and enable window dragging */
+.browser-toolbar, #navigator-toolbox {
+  background-color: var(--toolbar-bgcolor);
+  background-image: var(--toolbar-bgimage);
+  background-clip: padding-box;
+  color: var(--toolbar-color);
+  
+  -moz-window-dragging: drag;
+}
