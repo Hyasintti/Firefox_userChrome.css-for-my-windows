@@ -15,8 +15,8 @@
 #nav-bar {
   margin-top: calc(-1 * var(--tab-min-height));
   
-  margin-right: 144px;
-  /* margin-right: 96px; */
+  /* margin-right: 144px; */
+  /* margin-left: 96px; */
   
   box-shadow: none !important;
 }
@@ -38,4 +38,5 @@
   color: var(--toolbar-color);
   
   -moz-window-dragging: drag;
+
 }
