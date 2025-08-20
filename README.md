@@ -1,15 +1,21 @@
-1.On Firefox go to URL:
-about:config
+1. On Firefox go to URL:
 
-2.Search and change to true:
-toolkit.legacyUserProfileCustomizations.stylesheets
+>about:config
 
-3..Go to URL:
-about:profiles
+2. Search and change to true:
 
-4.Open Profile Local Directory
+>toolkit.legacyUserProfileCustomizations.stylesheets
 
-5.Make new folder called "chrome"
-and paste .css file on there
+3. Go to URL:
 
-../chrome/userChrome.css
+>about:profiles
+
+4. Open Local Profile directory
+
+5. Make new folder called
+
+>chrome
+
+6. Paste .css file on there
+
+>../chrome/userChrome.css
