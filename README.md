@@ -4,7 +4,7 @@ about:config
 2.Search and change to true:
 toolkit.legacyUserProfileCustomizations.stylesheets
 
-3.Go to URL:
+3..Go to URL:
 about:profiles
 
 4.Open Profile Local Directory
